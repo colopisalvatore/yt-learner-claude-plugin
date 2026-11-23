@@ -1,0 +1,13 @@
+# --- estrazione video -------------------------------------------------------
+yt-dlp>=2024.8.6                # metadati, caption track, download audio
+youtube-transcript-api>=0.6.2   # trascrizioni ufficiali (API 0.6.x e 1.x supportate)
+
+# --- provider LLM (basta quello che usi davvero) ----------------------------
+google-genai>=1.0.0             # modelli Gemini      -> GEMINI_API_KEY
+openai>=1.40.0                  # modelli GPT/o-serie -> OPENAI_API_KEY
+anthropic>=0.34.0               # modelli Claude      -> ANTHROPIC_API_KEY
+
+# --- utility ----------------------------------------------------------------
+python-dotenv>=1.0.1            # carica le API key da .env (opzionale ma comodo)
+
+# La CLI usa argparse (standard library): nessuna dipendenza aggiuntiva.

@@ -1,0 +1,14 @@
+{
+  "name": "yt-learner",
+  "description": "Plugin yt-learner: impara dai video tutorial di YouTube e ne fa skill e schede di knowledge.",
+  "owner": {
+    "name": "colopisalvatore"
+  },
+  "plugins": [
+    {
+      "name": "yt-learner",
+      "source": "./",
+      "description": "Da un video tutorial YouTube a una SKILL eseguibile + una scheda di knowledge."
+    }
+  ]
+}

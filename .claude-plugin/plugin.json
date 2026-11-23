@@ -1,0 +1,9 @@
+{
+  "name": "yt-learner",
+  "description": "Da un video tutorial YouTube a una SKILL eseguibile + una scheda di knowledge, con le slide vere e i timestamp.",
+  "version": "0.1.0",
+  "author": { "name": "colopisalvatore" },
+  "repository": "https://github.com/colopisalvatore/yt-learner-claude-plugin",
+  "license": "MIT",
+  "keywords": ["youtube", "skill", "knowledge", "obsidian", "transcript"]
+}
